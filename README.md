@@ -16,5 +16,6 @@ To Do
 
 ## 参考资料
 
++   [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99)
 +   [小程序框架对比](https://mina.wiki/eco/framework.html)
 +   [taro 原理总结](https://www.jishuwen.com/d/2xm1)
