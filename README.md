@@ -8,7 +8,7 @@
 
 ## 项目拆分思维导图
 
-![](imgs/process.png)
+![](img/process.png)
 
 ## 分享产出
 
