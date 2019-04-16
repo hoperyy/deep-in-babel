@@ -15,6 +15,8 @@
 +   深入 babel 插件开发
     +   完成文章 [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99) “Babel插件实践” 部分的实践。
 
+        https://github.com/hoperyy/water/issues/1
+
 ## 分享产出
 
 To Do
