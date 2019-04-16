@@ -13,9 +13,35 @@
 ## 阶段任务拆解
 
 +   深入 babel 插件开发
-    +   完成文章 [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99) “Babel插件实践” 部分的实践。
 
-        https://github.com/hoperyy/water/issues/1
+    +   练习 1
+
+        +   参考
+
+            +   [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99) “Babel插件实践” 部分。
+            +   [Babel 插件手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
+
+        +   答题地址：https://github.com/hoperyy/water/issues/1
+
+        +   作业
+
+            完成精准 import 转码：
+
+            ```js
+            import { Select as MySelect, Pagination } from 'xxx-ui';
+            // import UI2 from 'xxx-ui';
+            import * as UI from 'xxx-ui';
+            ```
+
+            到 
+
+            ```js
+            import MySelect from 'xxx-ui/Select/Select.js';
+            import Pagination from 'xxx-ui/Pagination/Pagination.js';
+            // import UI2 from 'xxx-ui';
+
+            import * as UI from 'xxx-ui';
+            ```
 
 ## 分享产出
 
