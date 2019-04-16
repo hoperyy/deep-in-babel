@@ -43,6 +43,8 @@
             import * as UI from 'xxx-ui';
             ```
 
+            **类似即可，自由发挥**
+
 ## 分享产出
 
 To Do
