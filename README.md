@@ -8,7 +8,7 @@
 
 ## 项目拆分思维导图
 
-![](img/process.png)
+![](img/progress.png)
 
 ## 阶段任务拆解
 
