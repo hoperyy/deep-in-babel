@@ -49,7 +49,7 @@
 
         +   参考 [懂编译真的可以为所欲为|不同前端框架下的代码转换](https://mp.weixin.qq.com/s?__biz=MzU4MDUxOTI5NA==&mid=2247484382&idx=1&sn=662c03594523cf3c9f5cc97eb7436d23&chksm=fd54d7cfca235ed92be315e19563da1cc1dd42cd372372376892e36991f23d292dabf00cbaf2&mpshare=1&scene=1&srcid=0418YWwl3FOxlg6USmo0ouwJ#rd)
 
-        +   答题地址：https://github.com/hoperyy/water/issues/2
+        +   答题地址：https://github.com/hoperyy/water/issues/3
 
         +   作业
 
