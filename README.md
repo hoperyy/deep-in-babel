@@ -51,6 +51,7 @@ To Do
 
 ## 参考资料
 
++   [剖析Babel——Babel总览](http://www.alloyteam.com/2017/04/analysis-of-babel-babel-overview/#prettyPhoto)
 +   [Babel 插件手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
 +   [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99)
 +   [小程序框架对比](https://mina.wiki/eco/framework.html)
