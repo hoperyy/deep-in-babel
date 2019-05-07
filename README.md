@@ -59,7 +59,7 @@
 
 ## 分享产出
 
-+   [babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)
++   [babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
 
 ## 参考资料
 
