@@ -60,7 +60,7 @@
 ## 分享产出
 
 +   [[多端开发系列] babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
-+   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)
++   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)(2019-05-19)
 
 ## 参考资料
 
