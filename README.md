@@ -4,6 +4,11 @@
 
 该项目致力于多端统一框架研究，包括但不限于：现有的 taro / chameleon 等多端框架原理理解、自研一套完整的多端框架、各种分析文章等。
 
+## 分享产出
+
++   [[多端开发系列] babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
++   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)(2019-05-19)
+
 ## 阶段任务拆解
 
 +   深入 babel 插件开发
@@ -48,13 +53,6 @@
         +   作业
 
             完成 vue 转 react
-
-        
-
-## 分享产出
-
-+   [[多端开发系列] babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
-+   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)(2019-05-19)
 
 ## 参考资料
 
