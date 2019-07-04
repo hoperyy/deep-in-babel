@@ -54,11 +54,11 @@
 
             完成 vue 转 react
 
-+   产出
+## 产出
 
-    +   独立解析某个文件的依赖树：[get-dependency-tree](https://github.com/hoperyy/get-dependency-tree)
++   独立解析某个文件的依赖树：[get-dependency-tree](https://github.com/hoperyy/get-dependency-tree)
 
-        用该工具可以快速解析出：`js / vue / scss / sass / less / css` 类入口文件的依赖树，不再依赖 webpack 获取依赖树（webpack 暴露的获取方式极其晦涩）。
+    用该工具可以快速解析出：`js / vue / scss / sass / less / css` 类入口文件的依赖树，不再依赖 webpack 获取依赖树（webpack 暴露的获取方式极其晦涩）。
 
 ## 参考资料
 
