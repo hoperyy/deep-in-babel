@@ -62,7 +62,7 @@
 
 +   微信小程序知识图谱
 
-    ![](./imgs/miniprogram.png)
+    ![](./img/miniprogram.png)
 
 ## 参考资料
 
