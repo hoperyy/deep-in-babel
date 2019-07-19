@@ -4,11 +4,6 @@
 
 该项目致力于多端统一框架研究，包括但不限于：现有的 taro / chameleon 等多端框架原理理解、自研一套完整的多端框架、各种分析文章等。
 
-## 分享产出
-
-+   [[多端开发系列] babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
-+   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)(2019-05-19)
-
 ## 阶段任务拆解
 
 +   深入 babel 插件开发
@@ -56,6 +51,8 @@
 
 ## 产出
 
++   [[多端开发系列] babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
++   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)(2019-05-19)
 +   独立解析某个文件的依赖树：[get-dependency-tree](https://github.com/hoperyy/get-dependency-tree)
 
     用该工具可以快速解析出：`js / vue / scss / sass / less / css` 类入口文件的依赖树，不再依赖 webpack 获取依赖树（webpack 暴露的获取方式极其晦涩）。
