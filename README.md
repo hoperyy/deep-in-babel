@@ -45,6 +45,10 @@
 
 ## 产出
 
++   文章
+
+    +   [Babel概述](https://github.com/hoperyy/water/issues/6)
+
 +   工具
 
     +   独立解析某个文件的依赖树：[get-dependency-tree](https://github.com/hoperyy/get-dependency-tree)
