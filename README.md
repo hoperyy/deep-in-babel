@@ -1,6 +1,6 @@
 # 深入理解 Babel
 
-## 《深入理解 Babel》部分草稿
+## 《深入理解 Babel》部分草稿（2022.01 开放）
 
 https://hoperyy.github.io/deep-in-babel/
 
