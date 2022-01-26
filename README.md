@@ -1,8 +1,8 @@
 # 深入理解 Babel
 
-## 体系化理解 Babel 部分草稿
+## 《深入理解 Babel》部分草稿
 
-https://hoperyy.github.io/dib/
+https://hoperyy.github.io/deep-in-babel/
 
 ## 练习
 
