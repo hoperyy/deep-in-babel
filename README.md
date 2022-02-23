@@ -1,85 +1,63 @@
-# 深入理解 Babel
-
-## 《深入理解 Babel》部分草稿（2022.01 开放）
+这是我的新书 《深入理解 Babel》的部分草稿，欢迎阅读。
 
 https://hoperyy.github.io/deep-in-babel/
 
-## 练习
+-- 刘远洋 2022.01.12
 
-+   练习 1：Babel 插件开发
+# 目录
 
-    +   参考
-
-        +   [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99) “Babel插件实践” 部分。
-        +   [Babel 插件手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
-
-    +   答题地址：https://github.com/hoperyy/water/issues/1
-
-    +   作业
-
-        完成精准 import 转码：
-
-        ```js
-        import { Select as MySelect, Pagination } from 'xxx-ui';
-        // import UI2 from 'xxx-ui';
-        import * as UI from 'xxx-ui';
-        ```
-
-        到 
-
-        ```js
-        import MySelect from 'xxx-ui/Select/Select.js';
-        import Pagination from 'xxx-ui/Pagination/Pagination.js';
-        // import UI2 from 'xxx-ui';
-
-        import * as UI from 'xxx-ui';
-        ```
-
-        **类似即可，自由发挥**
-
-+   练习 2
-
-    +   参考 [懂编译真的可以为所欲为|不同前端框架下的代码转换](https://mp.weixin.qq.com/s?__biz=MzU4MDUxOTI5NA==&mid=2247484382&idx=1&sn=662c03594523cf3c9f5cc97eb7436d23&chksm=fd54d7cfca235ed92be315e19563da1cc1dd42cd372372376892e36991f23d292dabf00cbaf2&mpshare=1&scene=1&srcid=0418YWwl3FOxlg6USmo0ouwJ#rd)
-
-    +   答题地址：https://github.com/hoperyy/water/issues/3
-
-    +   作业
-
-        完成 vue 转 react
-
-## 产出
-
-+   文章
-
-    +   [Babel概述](https://github.com/hoperyy/water/issues/6)
-
-+   工具
-
-    +   独立解析某个文件的依赖树：[get-dependency-tree](https://github.com/hoperyy/get-dependency-tree)
-
-        用该工具可以快速解析出：`js / vue / scss / sass / less / css` 类入口文件的依赖树，不再依赖 webpack 获取依赖树（webpack 暴露的获取方式极其晦涩）。
-
-+   分享
-
-    +   [[多端开发系列] babel 插件开发全面理解](https://github.com/hoperyy/water/issues/4)(2019-05-05)
-    +   [[多端开发系列] babel 插件开发实践过程](https://github.com/hoperyy/water/issues/5)(2019-05-19)
-    +   babel架构图(2019-12-05)
-
-        ![](./img/structure.png)
-
-    +   微信小程序知识图谱
-
-        ![](./img/miniprogram.png)
-
-## 参考资料
-
-+   [https://astexplorer.net/](https://astexplorer.net/)
-+   [AST 抽象语法树](http://jartto.wang/2018/11/17/about-ast/)
-+   [@babel/types 使用文档](https://babeljs.io/docs/en/babel-types)
-+   [babylon 文档](https://github.com/babel/babylon/blob/master/ast/spec.md)
-+   [懂编译真的可以为所欲为|不同前端框架下的代码转换](https://mp.weixin.qq.com/s?__biz=MzU4MDUxOTI5NA==&mid=2247484382&idx=1&sn=662c03594523cf3c9f5cc97eb7436d23&chksm=fd54d7cfca235ed92be315e19563da1cc1dd42cd372372376892e36991f23d292dabf00cbaf2&mpshare=1&scene=1&srcid=0418YWwl3FOxlg6USmo0ouwJ#rd)
-+   [剖析Babel——Babel总览](http://www.alloyteam.com/2017/04/analysis-of-babel-babel-overview/)
-+   [Babel 插件手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
-+   [深入Babel，这一篇就够了](https://juejin.im/post/5c21b584e51d4548ac6f6c99)
-+   [小程序框架对比](https://mina.wiki/eco/framework.html)
-+   [taro 原理总结](https://www.jishuwen.com/d/2xm1)
++   前言
++   第 1 章：Babel概述
+    +   1.1 抽象语法树
+    +   1.2 Babel的功能
+    +   1.3 Babel生命周期
+    +   1.4 Babel模块划分
+    +   1.5 Babel配置
+    +   1.6 Babel项目管理
+    +   1.7 总结
++   第 2 章：标准化
+    +   2.1 JavaScript诞生
+    +   2.2 ECMAScript简介
+    +   2.3 阅读ECMAScript
+    +   2.4 web标准
+    +   2.5 Babel与标准
++   第 3 章：Babel转译原理
+    +   3.1 转译原理
+    +   3.2 Babel简易实现
++   第 4 章：Babel节点集
+    +   4.1 The ESTree Spec
+    +   4.2 ECMAScript节点
+    +   4.3 JSX节点
+    +   4.4 TypeScript节点
+    +   4.5 Flow节点
+    +   4.6 总结
++   第 5 章：Babel工具集
+    +   5.1 准备工作
+    +   5.2 api服务: babel-core
+    +   5.3 命令行: babel-cli
+    +   5.4 node增强: babel-register
+    +   5.5 命令行: babel-node
+    +   5.6 浏览器支持: babel-standalone
+    +   5.7 代码高亮: babel-highlight
+    +   5.8 模板引擎: babel-template
+    +   5.9 webpack支持: babel-loader
++   第 6 章：Babel插件编写
+    +   6.1 遍历器: babel-traverse
+    +   6.2 节点操作: babel-types
+    +   6.3 插件编写实战
+    +   6.4 优秀插件
++   第 7 章：Babel内置plugin
+    +   7.1 准备工作
+    +   7.2 内置 plugins
+    +   7.3 内置 presets
++   第 8 章：Babel内置preset
+    TODO
++   第 9 章：runtime 
+    +   8.1 相关工具
+    +   8.2 core-js
++   第 10 章：Babel项目管理
+    +   9.1 工程化
+    +   9.2 质量控制
++   第 11 章：转译器对比
+    +   常用转译器
+    +   benchmark
