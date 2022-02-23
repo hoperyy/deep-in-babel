@@ -2,7 +2,7 @@
 
 https://hoperyy.github.io/deep-in-babel/
 
-刚刚开源，喜欢的话，欢迎 Star，对作者是个鼓励哈哈
+刚刚开源，喜欢的话，欢迎 Star，对作者是个鼓励!
 
 # 目录
 
@@ -61,4 +61,3 @@ https://hoperyy.github.io/deep-in-babel/
 +   第 11 章：转译器对比
     +   常用转译器
     +   benchmark
-    
