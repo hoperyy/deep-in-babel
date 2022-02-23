@@ -2,7 +2,7 @@
 
 https://hoperyy.github.io/deep-in-babel/
 
--- 刘远洋 2022.01.12
+-- 刘远洋
 
 # 目录
 
