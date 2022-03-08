@@ -1,6 +1,6 @@
 这是我的新书 《深入理解 Babel》的部分草稿，欢迎阅读。
 
-https://hoperyy.github.io/deep-in-babel/
+<a target="_blank" href="https://hoperyy.github.io/deep-in-babel/">在线地址: 《深入理解 Babel》</a>
 
 喜欢的话，欢迎 Star，对作者是个鼓励 ~
 
