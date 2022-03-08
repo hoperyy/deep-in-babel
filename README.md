@@ -4,6 +4,16 @@ https://hoperyy.github.io/deep-in-babel/
 
 刚刚开源，喜欢的话，欢迎 Star，对作者是个鼓励~
 
+# 版权声明
+
+本书版权归作者所有，未经作者授权，禁止一切方式转载。
+
+本书尚在撰写中，欢迎读者讨论 https://github.com/hoperyy/deep-in-babel/issues
+
+如果您觉得还不错, 请我喝杯咖啡，欢迎 Star, 提交 PR
+
+![alipay](https://user-images.githubusercontent.com/5757051/157154474-1944d144-268a-445d-980d-6a889d12adb8.jpg)
+
 # 目录
 
 +   前言
@@ -61,3 +71,4 @@ https://hoperyy.github.io/deep-in-babel/
 +   第 11 章：转译器对比
     +   常用转译器
     +   benchmark
+
