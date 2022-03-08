@@ -2,7 +2,7 @@
 
 https://hoperyy.github.io/deep-in-babel/
 
-刚刚开源，喜欢的话，欢迎 Star，对作者是个鼓励 ~
+喜欢的话，欢迎 Star，对作者是个鼓励 ~
 
 # 目录
 
