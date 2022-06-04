@@ -6,60 +6,21 @@
 
 # 目录
 
-+   前言
-+   第 1 章：Babel 概述
-    +   1.1 抽象语法树
-    +   1.2 Babel 的功能
-    +   1.3 Babel 生命周期
-    +   1.4 Babel 模块划分
-    +   1.5 Babel 配置
-    +   1.6 Babel 项目管理
-    +   1.7 总结
-+   第 2 章：标准化
-    +   2.1 JavaScript 诞生
-    +   2.2 ECMAScript 简介
-    +   2.3 阅读 ECMAScript
-    +   2.4 web 标准
-    +   2.5 Babel 与标准
-+   第 3 章：Babel 转译原理
-    +   3.1 转译原理
-    +   3.2 Babel 简易实现
-+   第 4 章：Babel 节点集
-    +   4.1 The ESTree Spec
-    +   4.2 ECMAScript 节点
-    +   4.3 JSX 节点
-    +   4.4 TypeScript 节点
-    +   4.5 Flow 节点
-    +   4.6 总结
-+   第 5 章：Babel 工具集
-    +   5.1 准备工作
-    +   5.2 api 服务: babel-core
-    +   5.3 命令行: babel-cli
-    +   5.4 node 增强: babel-register
-    +   5.5 命令行: babel-node
-    +   5.6 浏览器支持: babel-standalone
-    +   5.7 代码高亮: babel-highlight
-    +   5.8 模板引擎: babel-template
-    +   5.9 webpack 支持: babel-loader
-+   第 6 章：Babel 插件编写
-    +   6.1 遍历器: babel-traverse
-    +   6.2 节点操作: babel-types
-    +   6.3 插件编写实战
-    +   6.4 优秀插件
-+   第 7 章：Babel 内置 plugin
-    +   7.1 准备工作
-    +   7.2 内置 plugins
-    +   7.3 内置 presets
-+   第 8 章：Babel 内置 preset
-+   第 9 章：runtime 
-    +   8.1 相关工具
-    +   8.2 core-js
-+   第 10 章：Babel 项目管理
-    +   9.1 工程化
-    +   9.2 质量控制
-+   第 11 章：转译器对比
-    +   常用转译器
-    +   benchmark
++    00.前言
++    01.概述
++    02.转译原理(1)
++    02.转译原理(2)
++    03.Babel节点
++    04.Babel工具集
++    05.Babel插件编写
++    06.Babel内置Plugin(1)
++    06.Babel内置Plugin(2)
++    07.Babel内置Preset
++    08.runtime(1)
++    08.runtime(2)
++    08.runtime(3)
++    09.Babel项目管理
++    10.转译器对比
     
 
 
@@ -71,4 +32,4 @@
 
 如果您觉得还不错, 请我喝杯咖啡，欢迎 Star, 提交 PR
 
-<img src="https://user-images.githubusercontent.com/5757051/157154474-1944d144-268a-445d-980d-6a889d12adb8.jpg" style="width: 50%">
+<img src="https://user-images.githubusercontent.com/5757051/157154474-1944d144-268a-445d-980d-6a889d12adb8.jpg" style="width: 30%">
